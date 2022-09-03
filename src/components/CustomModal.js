@@ -1,5 +1,6 @@
 import ReactDOM from 'react-dom';
 import {Container} from 'semantic-ui-react';
+import RemoteImage from "./RemoteImage";
 
 const CustomModal = ({title, content, url, actions, onDismiss, show}) => {
 
@@ -9,16 +10,13 @@ const CustomModal = ({title, content, url, actions, onDismiss, show}) => {
             <div className={`ui standard modal visible active`}
                  onClick={event => event.stopPropagation()}>
                 <i className="close icon"
-                   onClick={onDismiss}></i>
+                   onClick={onDismiss}/>
                 <div className="header">
                     {title}
                 </div>
                 <div className="image content">
                     <div className="image">
-                        <img
-                            src={url}
-                            alt="cat"
-                        />
+                        <RemoteImage url={url} alt="cat"/>
                     </div>
                     <div className="description">
                         {content}
