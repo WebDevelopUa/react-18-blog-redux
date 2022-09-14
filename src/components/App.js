@@ -9,6 +9,7 @@ import PostDescription from "../pages/PostDescription";
 import Search from "../pages/Search";
 import Faq from "../pages/Faq";
 import Translate from "../pages/Translate";
+import ReduxSongs from "../pages/ReduxSongs";
 
 export default function App() {
     return (
@@ -22,6 +23,7 @@ export default function App() {
                     <Route path="translate" element={<Translate/>}/>
                     <Route path="blogs/description" element={<PostDescription/>}/>
                     <Route path="contact" element={<Contact/>}/>
+                    <Route path="songs" element={<ReduxSongs/>}/>
                     <Route path="*" element={<NoPage/>}/>
                 </Route>
             </Routes>

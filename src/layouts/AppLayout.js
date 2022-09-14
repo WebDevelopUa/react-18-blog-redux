@@ -1,6 +1,6 @@
 import {Outlet} from "react-router-dom";
 import AppHeader from "../components/AppHeader";
-import {Container, Flag} from "semantic-ui-react";
+import {Container} from "semantic-ui-react";
 import {useState} from "react";
 import LanguageContext from "../contexts/LanguageContext";
 import LanguageSelector from "../components/LanguageSelector";

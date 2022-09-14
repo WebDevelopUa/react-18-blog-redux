@@ -1,5 +1,5 @@
 import {Link, useLocation} from "react-router-dom";
-import {useState} from "react";
+// import {useState} from "react";
 
 const AppHeader = () => {
     // const [root, setRoot] = useState(window.location.pathname);
@@ -37,6 +37,12 @@ const AppHeader = () => {
                 className={`item ${(root === '/translate') ? 'active' : ''}`}
                 to="/translate">
                 Translate
+            </Link>
+
+            <Link
+                className={`item ${(root === '/songs') ? 'active' : ''}`}
+                to="/songs">
+                ReduxSongs
             </Link>
 
             <Link

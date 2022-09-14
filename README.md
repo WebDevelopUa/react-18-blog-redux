@@ -21,6 +21,18 @@ npm run start
 
 -------------------------------
 
+# Redux
+
+```shell
+npm i redux react-redux
+npm i @reduxjs/toolkit
+```
+
+TODO: implement Redux `src/index.js`
+
+
+-------------------------------
+
 # Hints
 
 * [Lang codes](https://datahub.io/core/language-codes)
@@ -33,7 +45,7 @@ npm run start
 * [icons.ttf](https://github.com/Semantic-Org/Semantic-UI-CSS/blob/master/themes/default/assets/fonts/icons.ttf)
 * [Upgrading from v5](https://reactrouter.com/docs/en/v6/upgrading/v5#upgrading-from-v5)
 * [useNavigation](https://reactnavigation.org/docs/use-navigation/)
-* 
+* [Getting Started with Redux Toolkit](https://redux-toolkit.js.org/introduction/getting-started)
 
 ```jsx
 import React from 'react'
